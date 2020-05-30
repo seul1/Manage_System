@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hdms-assembly/hdms-assembly.iml" filepath="$PROJECT_DIR$/hdms-assembly/hdms-assembly.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hdms-biz/hdms-biz.iml" filepath="$PROJECT_DIR$/hdms-biz/hdms-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hdms-community.iml" filepath="$PROJECT_DIR$/hdms-community.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hdms-framework/hdms-framework.iml" filepath="$PROJECT_DIR$/hdms-framework/hdms-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hdms-webapp/hdms-webapp.iml" filepath="$PROJECT_DIR$/hdms-webapp/hdms-webapp.iml" />
+    </modules>
+  </component>
+</project>

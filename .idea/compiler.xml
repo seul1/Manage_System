@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hdms-framework" />
+        <module name="hdms-biz" />
+        <module name="hdms-assembly" />
+        <module name="hdms-webapp" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hdms-assembly" target="1.8" />
+      <module name="hdms-biz" target="1.8" />
+      <module name="hdms-community" target="1.8" />
+      <module name="hdms-framework" target="1.8" />
+      <module name="hdms-webapp" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hdms-assembly" options="-parameters" />
+      <module name="hdms-biz" options="-parameters" />
+      <module name="hdms-framework" options="-parameters" />
+      <module name="hdms-webapp" options="-parameters" />
+    </option>
+  </component>
+</project>
